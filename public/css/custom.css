@@ -1,0 +1,29 @@
+.p a {
+    color: #49075e;
+}
+.html table{
+    font-size: 9px;
+}
+
+img {
+    border: 1px solid #333;
+    margin: 10px;
+}
+
+/* UQ Gold */
+.theme-base-uq-gold .sidebar {
+    background-color: #BDA14E;
+}
+.theme-base-uq-gold .content a,
+.theme-base-uq-gold .related-posts li a:hover {
+    color: #BDA14E;
+}
+
+/* UQ Purple */
+.theme-base-uq .sidebar {
+    background-color: #49075e;
+}
+.theme-base-uq .content a,
+.theme-base-uq .related-posts li a:hover {
+    color: #49075e;
+}

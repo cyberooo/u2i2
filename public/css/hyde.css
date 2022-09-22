@@ -74,6 +74,11 @@ html {
 .sidebar a {
   color: #fff;
 }
+.sidebar a:hover,
+.sidebar a:focus {
+  text-decoration-color: #BDA14E;
+  color: #BDA14E;
+}
 
 /* About section */
 .sidebar-about h1 {
@@ -128,7 +133,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 58rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }

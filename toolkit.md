@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Welcome to U2-I2!
-tags: home
+title: Toolkit
 ---
 
 <p class="message">
-  Hey there! Our U2-I2 is out! 
+Our U2-I2 is out! 
 </p>
 
 This page is under construction now.
