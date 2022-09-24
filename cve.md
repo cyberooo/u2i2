@@ -34,7 +34,7 @@ $ All the URLs listed are accessed on 20 September 2022.
 ## More details about CVE-2021-0428 
 #### SubscriptionInfo.getIccid() in Android 10
 
-We found an issue in *SubscriptionInfo.getIccid( )* and reported to Google. The vulnerability is later confirmed by Google [[**Snapshot of Google's IssueTracker Website**](/snapshots/google/IssueTracker.mhtml){:target="_blank"}] and registered with a CVE.
+We found an issue in *SubscriptionInfo.getIccid( )* and reported to Google. The vulnerability is later confirmed by Google [[**Snapshot of Google's IssueTracker Website**](/docs/public/google/IssueTracker.mhtml){:target="_blank"}] and registered with a CVE.
 
 The fixing of this vulnerability turns out to be an unexpectedly non-trivial process.
 During our assessment, we notice that the vulnerability in *getIccid( )* only exists in Android 10 and is not inherited by Android 11 and later releases.  
@@ -48,4 +48,4 @@ Google explained that the recall was because of *application compatibility issue
 Google later updated the comments in the source code of *getIccid( )* [[**Link to AOSP Repo**](https://cs.android.com/android/platform/superproject/+/master:frameworks/base/telephony/java/android/telephony/SubscriptionInfo.java){:target="_blank"}], stating that the system-level permission for this method is imposed since Android 11 (API level 30) rather than Android 10 (API level 29).
 This, however, contradicts Android's documentation and the policies on other UUIs, where the system-level permission is imposed since Android 10.
 
-You can find more technical details of the fixing and recalling of this CVE from the [**slides**](/snapshots/google/CVE20210428.pdf){:target="_blank"} prepared by us 
+You can find more technical details of the fixing and recalling of this CVE from the [**slides**](/docs/public/google/CVE20210428.pdf){:target="_blank"} prepared by us 
