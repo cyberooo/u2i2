@@ -13,7 +13,7 @@ permalink:        pretty
 title:            U2-I2
 tagline:          'U2I2'
 description:      'An one-stop solution to explore user unresettable identifiers (UUIs) leakage on your Android smartphone.'
-url:              http://hyde.getpoole.com
+url:              https://hyde.getpoole.com
 baseurl:          /
 
 author:

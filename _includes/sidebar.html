@@ -30,8 +30,13 @@
       
       <!--a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a-->
       <!--a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a-->
-      <p>   </p><p>   </p>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <!--span class="sidebar-nav-item">Currently v{{ site.version }}</span-->
+      <style>
+        .bottom-three {
+           margin-bottom: 2cm;
+        }
+      </style>
+      <p class="bottom-three"></p>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
