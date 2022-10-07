@@ -3,9 +3,9 @@ layout: page
 title: CVEs
 ---
 
-<p class="message">
+<!--p class="message">
 <i class="fa fa-star"></i> We got some vulnerabilities on the latest Android 12! Have a look now! 
-</p>
+</p-->
 
 ## Table of Common Vulnerabilities and Exposures (CVEs) found in this study
 
@@ -19,10 +19,12 @@ title: CVEs
 | CVE-2021-25358 | Samsung (E10)    | IMSI           | 3.3 LOW    | [[**Link**](https://security.samsungmobile.com/securityUpdate.smsb){:target="_blank"}<sup>#</sup>, [**Snapshot**]({{ site.baseurl }}/snapshots/vendor-advisory/va-2021-25358.png){:target="_blank"}]       |
 | CVE-2021-26278 | Vivo (G10)       | WiFi MAC       | 6.3 MEDIUM | [[**Link**](https://www.vivo.com/en/support/security-advisory-detail?id=7){:target="_blank"}, [**Snapshot**]({{ site.baseurl }}/snapshots/vendor-advisory/va-2021-26278.png){:target="_blank"}] |
 | CVE-2021-37055 | Huawei (A10)     | ICCID          | 5.3 MEDIUM | [[**Link**](https://consumer.huawei.com/en/support/bulletin/2021/9/){:target="_blank"}, [**Snapshot**]({{ site.baseurl }}/snapshots/vendor-advisory/va-2020-12488.png){:target="_blank"}]      |
+
+<!--
 | CVE-2022-30753 <sup>new</sup> | Samsung    | Device ID          | 3.3 LOW | [[**Link**](https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=7){:target="_blank"}, [**Snapshot**]({{ site.baseurl }}/snapshots/vendor-advisory/va-2022-30753.png){:target="_blank"}]      |
 | CVE-2022-27822 <sup>new</sup> | Samsung    | Misc UUI (EF_RUIMID)  | 5.5 MEDIUM | [[**Link**](https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=4){:target="_blank"}, [**Snapshot**]({{ site.baseurl }}/snapshots/vendor-advisory/va-2022-27822.png){:target="_blank"}]      |
 | CVE-2022-22272 <sup>new</sup> | Samsung     | IMSI              | 3.3 LOW | [[**Link**](https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=1){:target="_blank"}, [**Snapshot**]({{ site.baseurl }}/snapshots/vendor-advisory/va-2022-22272.png){:target="_blank"}]      |
-
+-->
 
 \* According to NIST NVD CVSS 3.x Severity and Metrics scoring standard.  
 $ All the URLs listed are accessed on 20 September 2022.  

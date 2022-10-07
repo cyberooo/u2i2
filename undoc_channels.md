@@ -30,7 +30,7 @@ The list of APIs is shown below:
 
 ### Our static analysis
 
-We use [<b>Soot</b> (ver 2.5.0)](http://soot-oss.github.io/soot/){:target="_blank"} to construct the call graph of API invocation in both the local and remote context. 
+We use [<b>Soot</b> (ver 2.5.0)](http://soot-oss.github.io/soot/){:target="_blank"} to construct the call graph of API invocation in both the local and remote contexts. 
 Considering the construction of call graph is a very complicated process that covers a hugh code repository (of AOSP) and takes a long time to execute, we prepare a sample toy project that only contains simplified classes that appears in the call traces of specific API invocation. 
 
 Next, we take the getImei() and getSerial() as examples and demonstrate how the static analysis facilitates our exploration of potential undocumented access channels. The sample project is exported to 3 runnable JAR files, which extract the call graph of the local context of getImei() [[**link to download**]]({{ site.baseurl }}/docs/public/jars/local-imei.jar){:target="_blank"}, the remote context of getImei() [[**link to download**]]({{ site.baseurl }}/docs/public/jars/remote-imei.jar){:target="_blank"}, and the remote context of getSerial() [[**link to download**]]({{ site.baseurl }}/docs/public/jars/remote-serial.jar){:target="_blank"}, respectively.

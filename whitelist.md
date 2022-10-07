@@ -31,10 +31,11 @@ Among the 3 whitelisting issues, the one found in Huawei's device involves the m
 
 #### Whitelisting Documents
 
-We search relevant documents on the Internet to support our finding, and we successfully find one webpage hosted in Huawei's developers community website, saying that the whitelisting mechanism is intentionally introduced for bring convenience to device users to avoid too many bothering user-clicking actions to allow certain runtime permissions.  
-We reported this issue to Huawei and then received the acknowledgment of the issue. The webpage has been later taken down by Huawei. We keep a copy of the [**webpage snapshot**]({{ site.baseurl }}/docs/public/huawei-whitelist-documentation-snapshot-20-Jul-2021.pdf){:target="_blank"} that describes the whitelisting mechanism (in Chinese).  
+We search relevant documents on the Internet to support our finding, and we successfully find one webpage hosted in Huawei's developers community website [(_snapshot_)]({{ site.baseurl }}/docs/public/whitelist-snapshot.pdf){:target="_blank"}, saying that the whitelisting mechanism is intentionally introduced for bring convenience to device users to avoid too many bothering user-clicking actions to allow certain runtime permissions.  
 
-<img src="{{ site.baseurl }}/docs/public/huawei-whitelist-documentation.jpg" alt="Webpage snapshot in Chinese" width="600"/>
+<!--We reported this issue to Huawei and then received the acknowledgment of the issue. The webpage has been later taken down by Huawei. We keep a copy of the [**webpage snapshot** (20 Jul 2021)]({{ site.baseurl }}/docs/public/huawei-whitelist-documentation-snapshot-20-Jul-2021.pdf){:target="_blank"} that describes the whitelisting mechanism (in Chinese).-->
+
+<!-- img src="{{ site.baseurl }}/docs/public/huawei-whitelist-documentation.jpg" alt="Webpage snapshot in Chinese" width="600"/-->
 
 #### Whitelisting Implementation
 
@@ -50,7 +51,7 @@ From the dumped image we also perform a text search and eventually find the list
 Within the XML file, there are lists of apps' package names defined in a *string-array* data structure. We find there are *162*  and *253* apps are defined as *"system apps"* and *"whitelisted app"*, respectively.  
 We attach the partial content of the XML file on this site, you can click [**here**]({{ site.baseurl }}/docs/public/whitelisted-app.xml){:target="_blank"} to download it.
 
-<img src="{{ site.baseurl }}/docs/public/whitelisted-app.jpg" alt="The XML file contains the whitelisted apps' package names" width="600"/>
+<!--img src="{{ site.baseurl }}/docs/public/whitelisted-app.jpg" alt="The XML file contains the whitelisted apps' package names" width="600"/-->
 
 <p class="message">
 <b>Claim of Responsible Disclose</b>
