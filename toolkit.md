@@ -53,5 +53,8 @@ Consider a UUI can be found by runing the tester app before and after factory re
 *The screenshot of the text file (invokeRe.txt) showing the system service functions invoked and corresponding return values*
 <img src="{{ site.baseurl }}/snapshots/testapp/invoke_res.jpg" width="400"/>
 
+<!--
 While the users are encouraged to customize the analysis process, we still provide a pre-defined script to do the differential analysis. You can download the script [[**here** (coming soon)](){:target="_blank"}].  
+-->
 
+The complete static analysis toolkit can be download through this [**link**](https://drive.google.com/file/d/1kpDE7h61L8xUkLM3RYyB_WrI9OxFX86Z/view?usp=sharing){:target="_blank"}. It is over 500MB and requests JDK 11 to execute. 
