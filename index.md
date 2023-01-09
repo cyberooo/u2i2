@@ -15,6 +15,8 @@ Mark Huasong Meng, Qing Zhang, Guangshuai Xia, Yuwei Zheng, Yanjun Zhang, Guangd
 The Network and Distributed System Security Symposium (NDSS), 2023.
 </p>
 
+You can download a copy of the paper [**here**]({{ site.baseurl }}/docs/public/paper/u2i2_ndss.pdf){:target="_blank"}.
+
 ----
 ## U2-I2 Team
 
